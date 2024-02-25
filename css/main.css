@@ -43,6 +43,10 @@
 	background-position: center;
 }
 
+.br1{
+	margin: 10%;
+}
+
 .paw{
 	height: 40px;
 	width: 40px;
@@ -61,8 +65,8 @@ h1{
 	margin: 30px;
 }
 
-p{
-	font-size: 35px;
+p, ul{
+	font-size: 30px;
 	margin: 30px;
 }
 
@@ -97,18 +101,96 @@ button{
 }
 
 .block2 ul{
-	list-style: disc;
+	list-style-image: url("../image/li-paw.png");
 	font-size: 35px;
 	margin-bottom: 10px;
+	float: right;
+	background-color: rgba(255, 255, 255, 0.6);
 }
-h1{
-	text-align: right;
-	font-size: 50px;
+
+.block2 li{
+	margin: 10px;
+}
+
+h2{
+	text-align: center;
+	font-size: 48px;
 	margin: 20px;
-	background-color: rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+hr{
+	background: linear-gradient(45deg, #F49A9A, #FFC5C5);
 }
 
 .privilege{
 	float: right;
 	align-items: calc(100% - 100px);
+}
+
+h3{
+	text-align: center;
+	font-size: 40px;
+	margin: 20px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.block3{
+	background-color: rgba(240, 128, 128, 0.7);
+	border-radius: 25px;
+}
+
+.price{
+	align-items: left;
+	background-color: rgba(255, 255, 255, 0.4);
+	margin: 10px;
+}
+
+.price ul{
+	list-style-image: url("../image/li-paw.png");
+	margin: 10px;
+}
+
+.free{
+	align-items: justify;
+	border-radius: 25px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.free ul{
+	list-style: none;
+}
+
+.free ul li:before{
+	content: "-";
+	position: relative;
+	left: -5px;
+}
+
+.block4{
+	background-image: url("../image/block4.jpg");
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: right;
+	align-items: right;
+	background-size: cover;
+	background-position: center;
+}
+
+.discount{
+	align-items: justify;
+	background-color: rgba(255, 255, 255, 0.4);
+	margin: 15px;
+}
+
+.block4 li{
+	margin: 10px;
+}
+
+.discount ul{
+	list-style-image: url("../image/li-paw.png");
+	margin-bottom: 10px;
 }
