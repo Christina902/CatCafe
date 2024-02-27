@@ -1,7 +1,6 @@
 button, h1, h2, h3{
-	font-family: "Borders Divide But Hearts Shall [RUSbyPenka220]" ;
+	font-family: "BordersDivideButHeartsShall" ;
 	src: url(../fonts/BordersDivideButHeartsShall[RUSbyPenka220]-Regular.ttf);
-	font-style: normal;
 	font-weight: bolder;
 }
 
@@ -83,14 +82,19 @@ p, ul{
 	font-size: 35px;
 
 }
-button{
+
+.butt{
+	text-align: left;
+	margin-bottom: 50px;
+	height: 150px;
+	width: 350px;
+}
+
+.but1{
 	font-size: 40px;
 	background-color: #DC143C;
-	border: dashed black;
+	box-shadow: -12px 8px 51px -12px rgb(144, 255, 165);
 	border-radius: 30px;
-	height: 200px;
-	width: 385px;
-	margin-right: 50px;
 }
 
 .block2{
@@ -194,6 +198,70 @@ h3{
 }
 
 .block5{
-	background-color: rgba(240, 128, 128, 0.7);
+	background-color: rgba(240, 128, 128, 0.5);
 	border-radius: 25px;
+}
+
+.cats{
+	background-color: rgba(255, 255, 255, 0.4);
+	font-size: 40px;
+	text-align: center;
+}
+
+.cat{
+	height: 20%;
+	width: 20%;
+	border-radius: 20px;
+	box-shadow: -12px 8px 51px -12px rgb(144, 255, 165);
+}
+
+.center{
+	text-align: center;
+}
+
+.block6{
+	background-color: rgba(240, 128, 128, 0.9);
+	border-radius: 25px;
+}
+
+.six{
+	text-align: center;
+	font-size: 40px;
+	margin: 20px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.bl6{
+	text-align: center;
+}
+
+.pngg{
+	width: 500px;
+	height: 200px;
+}
+
+.motivation{
+	text-align: justify;
+	font-size: 40px;
+	margin: 20px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.but2{
+	font-size: 36px;
+	background-color: #DC143C;
+	box-shadow: -12px 8px 51px -12px rgb(144, 255, 165);
+	border-radius: 30px;
+	height: 100px;
+	width: 300px;
+	margin-right: 60px;
+}
+
+.end{
+	text-align: center;
+}
+
+.contact{
+	text-align: right;
+	font-size: 25px;
 }
