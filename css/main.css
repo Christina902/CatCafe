@@ -1,3 +1,10 @@
+button, h1, h2, h3{
+	font-family: "Borders Divide But Hearts Shall [RUSbyPenka220]" ;
+	src: url(../fonts/BordersDivideButHeartsShall[RUSbyPenka220]-Regular.ttf);
+	font-style: normal;
+	font-weight: bolder;
+}
+
 .social-icons{
 	float: right;
 }
@@ -9,18 +16,18 @@
 
 .social-icons li{
 	display: inline-block;
-	margin-left: 10px;
+	margin-left: 15px;
 }
 
 .social-icons img{
-	height: 30px;
-	width: 30px;
+	height: 40px;
+	width: 40px;
 }
 
 .geo{
 	height: 20px;
 	width: 20px;
-	margin: 15px;
+	margin-bottom: 10px;
 	text-align: left;
 	display: inline-block;
 }
@@ -55,14 +62,13 @@
 h1{
 	text-align: left;
 	font-size: 60px;
-	margin: 20px, 20px, 30px, 50px;
 	background-color: rgba(255, 255, 255, 0.4);
 }
 .h1{
 	text-align: left;
 	background-color: rgba(255, 255, 255, 0.4);
-	font-size: 45px;
-	margin: 30px;
+	font-size: 40px;
+	margin: 25px;
 }
 
 p, ul{
@@ -78,38 +84,33 @@ p, ul{
 
 }
 button{
-	font-size: 30px;
+	font-size: 40px;
 	background-color: #DC143C;
-	border: dashed;
+	border: dashed black;
 	border-radius: 30px;
 	height: 200px;
-	width: 380px;
-	margin: 55px;
+	width: 385px;
+	margin-right: 50px;
 }
 
 .block2{
-	background-image: url("../image/block2.jpg");
-	position: relative;
-	width: 100%;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: right;
-	align-items: right;
-	background-size: cover;
-	background-position: center;
+	background-color: rgba(240, 128, 128, 0.7);
+	border-radius: 25px;
 }
 
 .block2 ul{
 	list-style-image: url("../image/li-paw.png");
-	font-size: 35px;
 	margin-bottom: 10px;
-	float: right;
-	background-color: rgba(255, 255, 255, 0.6);
+	align-items: stretch;
+	background-color: rgba(255, 255, 255, 0.4);
 }
 
 .block2 li{
 	margin: 10px;
+}
+
+.privilege{
+	border-radius: 25px;
 }
 
 h2{
@@ -117,15 +118,6 @@ h2{
 	font-size: 48px;
 	margin: 20px;
 	background-color: rgba(255, 255, 255, 0.6);
-}
-
-hr{
-	background: linear-gradient(45deg, #F49A9A, #FFC5C5);
-}
-
-.privilege{
-	float: right;
-	align-items: calc(100% - 100px);
 }
 
 h3{
@@ -193,4 +185,15 @@ h3{
 .discount ul{
 	list-style-image: url("../image/li-paw.png");
 	margin-bottom: 10px;
+}
+
+.line{
+	height: 20px;
+	width: 20px;
+	background-color: white;
+}
+
+.block5{
+	background-color: rgba(240, 128, 128, 0.7);
+	border-radius: 25px;
 }
