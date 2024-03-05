@@ -45,7 +45,7 @@ body, button {
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
-	text-align: left;
+	text-align: center;
 	background-size: cover;
 	background-position: center;
 }
@@ -76,29 +76,37 @@ p, ul{
 }
 
 .first, .second, .third{
-	float: left;
+	display: inline-flex;
+	justify-content: space-evenly;
+	text-align: center;
 	border-radius: 30px;
 	background-color: rgba(233, 172, 183, 0.8);
-	margin: 30px;
-	padding: 10px;
+	margin: 50px;
+	padding: 15px;
 	font-size: 35px;
 }
 
 .butt{
-	display: inline-block;
-	text-align: center;
-	margin: 48vh;
-	margin: 50px 50px 50px 400px;
-	height: 150px;
+	display: flex;
+	justify-content: center;
+	margin: 10vh 45vh;
+	height: 120px;
 	width: 350px;
 }
 
 .but1{
+	text-align: center;
 	font-size: 40px;
 	background-color: rgb(217, 128, 128);
 	box-shadow: -12px 8px 51px -12px rgb(186, 85, 31);
 	border-radius: 30px;
 	border: #BF485D solid;
+}
+
+.cofecat{
+	height: 20vh;
+	width: 17vh;
+	margin: 0px 25px;
 }
 
 .block2{
@@ -109,7 +117,6 @@ p, ul{
 .block2 ul{
 	list-style-image: url("../image/li-paw.png");
 	margin-bottom: 10px;
-	align-items: stretch;
 	background-color: rgba(255, 255, 255, 0.4);
 }
 
@@ -120,6 +127,12 @@ p, ul{
 .privilege ul{
 	border-radius: 30px;
 	background-color: rgba(255, 227, 225, 0.5);
+}
+
+.catbread{
+	height: 24vh;
+	width: 21vh;
+	margin: 0px 15px 15px 15px;
 }
 
 h2{
@@ -144,11 +157,15 @@ h3{
 	display: grid;
 }
 
+.cats3{
+	margin: 0vh 48vh;
+}
+
 .pic{
+	text-align: right;
 	height: 20vh;
 	width: 20vh;
-	text-align: center;
-	margin-left: 48vh;
+	margin: 0vh 20vh;
 }
 
 .price{
@@ -193,8 +210,8 @@ h3{
 }
 
 .picc{
-	height: 39vh;
-	width: 33vh;
+	height: 24vh;
+	width: 21vh;
 	margin: 20px;
 }
 
