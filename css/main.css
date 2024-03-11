@@ -188,10 +188,15 @@ h3{
   left: -5px;
 }
 
+.koti{
+  display: flex;
+  justify-content: center;
+}
+
 .cats3{
   height: 15vh;
   width: 44vh;
-  margin: 10px 49vh;
+  margin: 4vh;
 }
 
 .block4{
