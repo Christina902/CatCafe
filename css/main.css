@@ -90,8 +90,8 @@ h1{
 }
 
 .line{
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
 }
 
 .block2{
@@ -232,6 +232,36 @@ h3{
   margin-left: 10px;
 }
 
+@media (max-width:900px){
+  .pic{
+    display: none;
+   }
+  .picc{
+  display: none;
+  }
+  .catbread{
+    display: none;
+  }
+}
+
+@media(max-width:1400px){
+  .pic{
+    float: right;
+    height: 10vh;
+    width:10vh;
+   }
+  .picc{
+    float: left;
+    height: 13vh;
+    width: 11vh;
+  }
+  .catbread{
+    height: 15vh;
+    width: 13vh;
+  }
+}
+
+
 .picc{
   float: left;
   height: 20vh;
@@ -307,7 +337,8 @@ h3{
 }
 
 .end{
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .contact{
